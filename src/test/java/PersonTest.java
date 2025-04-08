@@ -6,22 +6,22 @@ class PersonTest {
 
     @Test
     void testGetFullName() {
-        Person person = new Person("John", "Doe", 25);
-        assertEquals("John Doe", person.getFullName());
+        Person person = new Person("Houssam", "ZOUAOUI", 25);
+        assertEquals("Houssam ZOUAOUI", person.getFullName());
     }
 
     @Test
     void testIsAdult_WhenAgeIs18OrMore() {
-        Person person = new Person("Alice", "Smith", 18);
+        Person person = new Person("Adem", "RAMDANE", 18);
         assertTrue(person.isAdult());
 
-        Person person2 = new Person("Bob", "Brown", 30);
+        Person person2 = new Person("Zakaria", "BOUGADI", 30);
         assertTrue(person2.isAdult());
     }
 
     @Test
     void testIsAdult_WhenAgeIsLessThan18() {
-        Person person = new Person("Charlie", "Young", 17);
+        Person person = new Person("Yahia", "HANANI", 17);
         assertFalse(person.isAdult());
     }
 }
