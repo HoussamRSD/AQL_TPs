@@ -1,4 +1,6 @@
-import org.example.Stack;
+package org.example.TP0;
+
+import org.example.TP0.Stack;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
