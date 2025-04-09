@@ -12,9 +12,11 @@ public class Person {
         this.age = age;
     }
     public String getFullName() {
+
         return firstName + " " + lastName;
     }
     public boolean isAdult() {
+
         return age >= 18;
     }
 }
