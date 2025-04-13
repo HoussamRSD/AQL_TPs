@@ -4,7 +4,7 @@ import TP1.Correction.Palindrome;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class PalindromeTest {
+public class Exo1Test {
 
     @Test
     void testConditionTrueMismatch() {

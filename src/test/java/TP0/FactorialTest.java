@@ -35,7 +35,7 @@ class FactorialTest {
     // Cas limite supérieur (attention à l’overflow pour int)
     @Test
     void testFactorialOfThirteen() {
-        assertEquals(6227020800L, (long) Factorial.factorial(13)); // Dépasse int !
+        assertEquals(6227020800L ,(double) Factorial.factorial(13)); // Dépasse int !
     }
 }
 
