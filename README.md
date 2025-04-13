@@ -1,10 +1,6 @@
 # TP1 – Exercice 1 : Palindrome
 
-## 🔎 Objectif :
-Vérifier la couverture du code selon **les critères suivants** :
-- Couverture des **lignes**
-- Couverture des **branches**
-- Couverture des **conditions**
+
 
 ## 📌 Remarque :
 Les trois critères de couverture (**lignes**, **branches**, **conditions**) ont chacun nécessité des **tests spécifiques**.  
