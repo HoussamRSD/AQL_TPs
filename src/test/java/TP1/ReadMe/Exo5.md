@@ -2,13 +2,13 @@
 
 ## 🐞 Bug détecté :
 Dans la boucle :
-```java
+```
 for (int i = 0; i <= symbols.length; i++)
 ```
 
 
 ## ✅ Correction apportée :
-```java
+```
 for (int i = 0; i < symbols.length; i++) {
         while (n >= values[i]) {
         sb.append(symbols[i]);

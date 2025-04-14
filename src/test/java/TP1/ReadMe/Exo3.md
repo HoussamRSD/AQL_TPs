@@ -3,14 +3,17 @@
 
 ## 🐞 Bug détecté :
 La condition de la boucle était incorrecte :
-```java
+```
 while (low < high)
+
 ```
 
 
 ## ✅ Correction apportée :
-```java
-while (low <= high)
+```
+
+while (low <= high);
+
 ```
 
 

@@ -2,12 +2,12 @@
 
 ## 🐞 Bug détecté :
 Dans la boucle de comparaison des caractères :
-```java
+```
 for (int i = 0; i <= s1.length(); i++) {
 ```
 
 ## ✅ Correction apportée :
-```java
+```
 for (int i = 0; i < s1.length(); i++) {
     count[s1.charAt(i) - 'a']++;
     count[s2.charAt(i) - 'a']--;
