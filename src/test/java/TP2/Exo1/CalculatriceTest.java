@@ -1,4 +1,4 @@
-package TP2;
+package TP2.Exo1;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
