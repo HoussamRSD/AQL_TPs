@@ -91,7 +91,7 @@ verify(de2, never()).lancer();
 
 ---
 
-## ✅ 5. Autres scénarios (continuation) :
+## ✅ 6. Autres scénarios (continuation) :
 - Somme ≠ 7 → perte
 - Somme = 7 → gain
 - Gain + banque insolvable → le jeu se ferme
@@ -99,7 +99,7 @@ verify(de2, never()).lancer();
 
 ---
 
-## ✅ 6. Implémentation concrète de la banque :
+## ✅ 7. Implémentation concrète de la banque :
 
 ```java
 package TP2.Exo4;
@@ -136,7 +136,7 @@ public class BanqueReelle implements Banque {
 
 ---
 
-## ✅ 7. Test réécrit avec implémentation réelle de la banque
+## ✅ 8. Test réécrit avec implémentation réelle de la banque
 
 ### 🎯 Titre : *“Le joueur gagne et rend la banque insolvable (test semi-intégré)”*
 
